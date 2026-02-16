@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signal Room</title>
+  <meta name="description" content="A static page demo with a strong visual system and motion.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="side-note" aria-hidden="true">
+    <span>Swiss Grid / Editorial Contrast / Intentional Motion /</span>
+  </div>
+
+  <header class="hero reveal">
+    <p class="kicker">YANJIU / STATIC WEB EXPERIMENT</p>
+    <h1>Signal Room</h1>
+    <p class="lead">
+      A one-page composition focused on hierarchy, texture, and rhythm.
+      No framework, no build step, just HTML, CSS, and JS.
+    </p>
+    <a class="cta" href="#chapters">Read Chapters</a>
+  </header>
+
+  <main id="chapters">
+    <section class="split reveal" aria-label="Design summary">
+      <article class="panel panel-left">
+        <h2>Intent First</h2>
+        <p>
+          This layout uses asymmetry: oversized title, narrow information rail, and
+          intentional blank space. The goal is clear scanning at first glance.
+        </p>
+      </article>
+      <aside class="panel panel-right">
+        <h3>System Tokens</h3>
+        <ul class="metrics">
+          <li><span>Palette</span><strong>Sand / Coal / Pine / Ember</strong></li>
+          <li><span>Type</span><strong>Playfair + Space Grotesk</strong></li>
+          <li><span>Motion</span><strong>Reveal + drifting side note</strong></li>
+          <li><span>Grid</span><strong>2D split, mobile collapse</strong></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="cards reveal" aria-label="Three cards">
+      <article class="card">
+        <h3>01 / Clarity</h3>
+        <p>Each block has a role. Visual weight and spacing define reading order.</p>
+      </article>
+      <article class="card">
+        <h3>02 / Contrast</h3>
+        <p>Serif display headlines pair with geometric body text for strong tone.</p>
+      </article>
+      <article class="card">
+        <h3>03 / Continuity</h3>
+        <p>Animation timing follows one curve so transitions feel related.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer reveal">
+    <p>Built in <strong>D:\2026CODE\yanjiu</strong> as an MCP demo target.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
